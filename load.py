@@ -1,13 +1,9 @@
-
-
-class Load (object):
+class Load(object):
     def __init__(self):
         pass
+
     def persist(self, target, data):
         data.to_csv(target)
-
-def load(targetfile, data_to_load):
-    data_to_load.to_csv(targetfile)
 
 
 def log(message):

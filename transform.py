@@ -2,11 +2,6 @@
 import pandas as pd
 from collections import defaultdict
 
-
-def transform(data):
-    data['price'] = round(data.price, 2)
-    return data
-
 class Transform(object):
     def __init__ (self):
         self.transformations = defaultdict(list)
