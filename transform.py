@@ -1,9 +1,9 @@
-
 import pandas as pd
 from collections import defaultdict
 
+
 class Transform(object):
-    def __init__ (self):
+    def __init__(self):
         self.transformations = defaultdict(list)
 
     def transformation(self, field, transform):
