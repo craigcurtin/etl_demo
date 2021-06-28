@@ -4,9 +4,9 @@ from collections import defaultdict
 
 
 class Transform(object):
-    ''' Transform data in underlying Pandas DF, configure as many transformations as desired
+    """ Transform data in underlying Pandas DF, configure as many transformations as desired
         the transformations will be applied sequentially (list order, first in, first executed)
-    '''
+    """
     def __init__(self):
         self.transformations = defaultdict(list)
 
