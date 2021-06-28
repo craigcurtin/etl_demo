@@ -22,6 +22,7 @@ if __name__ == '__main__':
 
     Transform = Transform()
     Transform.transformation('price', 'two_digits')
+    Transform.transformation('price', 'ceil hundred')
     transform_data = Transform.apply(extract_data)
     logging.info("Transform, complete")
 
